@@ -1,5 +1,19 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  body
+    .block.-berry.edge--bottom
+      h1 Bottom Angled Edge
+    .block.-blue.edge--bottom--reverse
+      h1 Bottom Angled Edge
+      p Reversed
+    .block.-berry.edge--top
+      h1 Top Angled Edge
+    .block.-blue.edge--top--reverse
+      h1 Top Angled Edge
+      p Reversed
+    .block.-orange.edge--both
+      h1 Top & Bottom Angled Edges
+    .block.-green.edge--both--reverse
+      h1 Top & Bottom Angled Edges
+      p Reversed

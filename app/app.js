@@ -1,9 +1,20 @@
+/**
+
+This app uses styles from:
+http://codepen.io/jeremyfrank/pen/avyezR
+
+
+**/
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+
+//added express-responsive
+var responsive = require('express-responsive');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
