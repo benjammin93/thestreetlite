@@ -1,3 +1,3 @@
 # thestreetlite
 
-thestreetlite.herokuapp.com
+[the streetlite co. website] (http://thestreetlite.herokuapp.com)
